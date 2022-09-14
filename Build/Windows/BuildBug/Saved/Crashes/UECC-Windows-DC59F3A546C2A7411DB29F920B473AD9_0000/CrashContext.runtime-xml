@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>0E0481D14B5AAD258D00D2AD45CA8FC7</ExecutionGuid>
+<CrashGUID>UECC-Windows-DC59F3A546C2A7411DB29F920B473AD9_0000</CrashGUID>
+<IsEnsure>true</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>false</IsAssert>
+<CrashType>Ensure</CrashType>
+<ErrorMessage>Ensure condition failed: GetStaticMaterials()[MaterialIndex].UVChannelData.bInitialized [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\StaticMesh.cpp] [Line: 3573]
+
+Stack: 
+0x00007ff7f93a7873 BuildBug.exe!UStaticMesh::GetUVChannelData() []
+0x00007ff7f894ec9b BuildBug.exe!UStaticMeshComponent::GetMaterialStreamingData() []
+0x00007ff7f88be244 BuildBug.exe!UMeshComponent::GetStreamingTextureInfoInner() []
+0x00007ff7f8955e51 BuildBug.exe!UStaticMeshComponent::GetStreamingRenderAssetInfo() []
+0x00007ff7f88bdecc BuildBug.exe!UPrimitiveComponent::GetStreamingRenderAssetInfoWithNULLRemoval() []
+0x00007ff7f9419094 BuildBug.exe!FRenderAssetInstanceState::AddComponentIgnoreBounds() []
+0x00007ff7f93e96b2 BuildBug.exe!FDynamicRenderAssetInstanceManager::IncrementalUpdate() []
+0x00007ff7f944682e BuildBug.exe!FRenderAssetStreamingManager::IncrementalUpdate() []
+0x00007ff7f9461631 BuildBug.exe!FRenderAssetStreamingManager::UpdateResourceStreaming() []
+0x00007ff7f89dd7e6 BuildBug.exe!FStreamingManagerCollection::UpdateResourceStreaming() []
+0x00007ff7f89d758d BuildBug.exe!FStreamingManagerCollection::Tick() []
+0x00007ff7f8b1b9d8 BuildBug.exe!UGameEngine::Tick() []
+0x00007ff7f2679f57 BuildBug.exe!FEngineLoop::Tick() []
+0x00007ff7f26918ac BuildBug.exe!GuardedMain() []
+0x00007ff7f269197a BuildBug.exe!GuardedMainWrapper() []
+0x00007ff7f26949fc BuildBug.exe!LaunchWindowsStartup() []
+0x00007ff7f26a61b4 BuildBug.exe!WinMain() []
+0x00007ff7fa73c6ca BuildBug.exe!__scrt_common_main_seh() [D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+0x00007ffb6ac37034 KERNEL32.DLL!UnknownFunction []
+0x00007ffb6c382651 ntdll.dll!UnknownFunction []
+</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>27324</ProcessId>
+<SecondsSinceStart>0</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE5-BuildBug</GameName>
+<ExecutableName>BuildBug</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>5.0.3-20979098+++UE5+Release-5.0</EngineVersion>
+<CommandLine> BuildBug</CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale>zh-CN</AppDefaultLocale>
+<BuildVersion>++UE5+Release-5.0-CL-20979098</BuildVersion>
+<Symbols>**UE5*Release-5.0-CL-20979098-Win64-Development</Symbols>
+<IsUERelease>false</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>D:/UnrealProjects/BuildBug/Build/Windows/BuildBug/Binaries/Win64/</BaseDir>
+<RootDir>D:/UnrealProjects/BuildBug/Build/Windows/</RootDir>
+<MachineId>48DAD8034BF3EE61D32627996616E6E3</MachineId>
+<LoginId>48dad8034bf3ee61d32627996616e6e3</LoginId>
+<EpicAccountId>f981f622e4154bb7b9d0567a1b1595d7</EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>16</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>24</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>12th Gen Intel(R) Core(TM) i9-12900K</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 3090</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10 (21H2) [10.0.19044.1826]</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>137167679488</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>157568774144</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>128</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>102490755072</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>111272013824</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>642973696</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>649748480</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>2669031424</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>2669031424</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>6</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+BuildBug  0x00007ff7f1bb0000 + 77f7873         
+BuildBug  0x00007ff7f1bb0000 + 6d9ec9b         
+BuildBug  0x00007ff7f1bb0000 + 6d0e244         
+BuildBug  0x00007ff7f1bb0000 + 6da5e51         
+BuildBug  0x00007ff7f1bb0000 + 6d0decc         
+BuildBug  0x00007ff7f1bb0000 + 7869094         
+BuildBug  0x00007ff7f1bb0000 + 78396b2         
+BuildBug  0x00007ff7f1bb0000 + 789682e         
+BuildBug  0x00007ff7f1bb0000 + 78b1631         
+BuildBug  0x00007ff7f1bb0000 + 6e2d7e6         
+BuildBug  0x00007ff7f1bb0000 + 6e2758d         
+BuildBug  0x00007ff7f1bb0000 + 6f6b9d8         
+BuildBug  0x00007ff7f1bb0000 + ac9f57          
+BuildBug  0x00007ff7f1bb0000 + ae18ac          
+BuildBug  0x00007ff7f1bb0000 + ae197a          
+BuildBug  0x00007ff7f1bb0000 + ae49fc          
+BuildBug  0x00007ff7f1bb0000 + af61b4          
+BuildBug  0x00007ff7f1bb0000 + 8b8c6ca         
+KERNEL32  0x00007ffb6ac20000 + 17034           
+ntdll     0x00007ffb6c330000 + 52651           
+</PCallStack>
+<PCallStackHash>B50AD16967E369F39A4851753BB408F34BC492D3</PCallStackHash>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+<EngineData>
+<MatchingDPStatus_Windows>No errors</MatchingDPStatus_Windows>
+<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+<RHI.D3DDebug>false</RHI.D3DDebug>
+<RHI.Breadcrumbs>true</RHI.Breadcrumbs>
+<RHI.DRED>false</RHI.DRED>
+<RHI.DREDContext>false</RHI.DREDContext>
+<RHI.Aftermath>true</RHI.Aftermath>
+<RHI.RHIName>D3D12</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce RTX 3090</RHI.AdapterName>
+<RHI.UserDriverVersion>516.59</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>31.0.15.1659</RHI.InternalDriverVersion>
+<RHI.DriverDate>6-23-2022</RHI.DriverDate>
+<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+<RHI.DriverBlacklisted>false</RHI.DriverBlacklisted>
+<DeviceProfile.Name>Windows</DeviceProfile.Name>
+<Platform.AppHasFocus>true</Platform.AppHasFocus>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
